@@ -1,0 +1,36 @@
+extends ./layout.pug
+block content
+  .navigationMenuSection
+    include navigationMenu.pug
+  #mainContentSection
+    include memberNews.pug
+    .aboutSection.section.mainSection(id='jump-to-about-section') 
+    .detailsSection.section.mainSection
+    .policiesSection.section.mainSection
+    .loginSection.mainSection
+      include login.pug
+    .registerSection.section.mainSection
+      include register.pug
+    .signUpForCritSection.section.mainSection
+      include signupSheet.pug
+      include presenterQuestionnaire.pug
+    .updateMemberInfoSection.section.mainSection
+      include updateMemberInfo.pug
+    .feedbackSection.section.mainSection
+      include feedback.pug
+    .memberNewsEntrySection.section.mainSection
+      include memberNewsEntry.pug
+    .aboutUsSection.section.mainSection
+      include aboutUs.pug
+    .mailchimpSignupSection.section.mainSection
+      include mailchimpSignup.pug
+    .membersListSection.section.mainSection
+      include membersList.pug
+    .mobileAuditsSection.section.mainSection
+      include mobileAudits.pug
+    .footerSection
+      include footer.pug
+  script.
+    $(function () {
+      initializeLayout("home", !{JSON.stringify(trigger)});
+    });

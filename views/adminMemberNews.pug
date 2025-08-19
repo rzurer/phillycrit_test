@@ -1,0 +1,25 @@
+.adminMemberNewsContainer
+  span#createNewMemberNewsButton.saveCancelButton New
+  .line
+  .adminMemberNewsTableContainer
+  .adminMemberNewsAddOrUpdateContainer
+    input#hiddenMemberNewsId.entryField(type='hidden')
+    span#addMemberNewsButton.saveCancelButton Add
+    span#updateMemberNewsButton.saveCancelButton Update
+    span#publishMemberNewsButton.saveCancelButton Publish
+    span#showListButton.saveCancelButton List
+    .line
+    span#memberNewsApprovalStatusLabel Status:
+    span#memberNewsApprovalStatusSpan(disabled)
+    .line
+    span.memberNewsSpan Email:
+    input#memberEmailInput.entryField(type='text')
+    input#memberNewsFullNameInput.entryField(type='text' disabled)
+    .line
+    span.memberNewsSpan Website:
+    input#memberNewsWebsiteInput.entryField.input600(type='text' disabled)
+    .line
+    span.memberNewsSpan Instagram:
+    input#memberNewsInstagramInput.entryField.input600(type='text' disabled)
+    .line
+    include memberNewsAddOrUpdateContainer.pug

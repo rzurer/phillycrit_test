@@ -1,0 +1,39 @@
+.line
+  label(id='registrationEmailLabel') Email:
+  span(id='registrationEmailSpan')
+.line
+  span Confirm Email:
+  input.styled.requiredMemberInput(id='confirmEmailInput', type = 'text')
+  label.requiredFieldSymbol *
+  span.fieldError(id='confirmEmailErrorSpan')
+.line
+  span First Name:
+  input.styled.requiredMemberInput(id='firstNameInput', type = 'text')
+  label.requiredFieldSymbol *
+  span.fieldError(id='firstNameErrorSpan')
+.line
+  span Last Name:
+  input.styled.requiredMemberInput(id='lastNameInput', type = 'text')
+  label.requiredFieldSymbol *
+  span.fieldError(id='lastNameErrorSpan')
+.line
+  span Pronouns:
+  input.styled(id='pgpInput', type = 'text')
+.line
+  span Phone:
+  input.styled(id='phoneInput', type = 'text')
+.line
+  span Website URL:
+  input.styled.urlInput(id='websiteInput', type='text', placeholder = 'https://www.google.com')
+  span.fieldError(id='websiteUrlErrorSpan')
+.line
+  span Instagram URL:
+  input.styled.urlInput(id='instagramInput', type='text', placeholder = 'https://www.instagram.com/your account')
+  span.fieldError(id='instagramUrlErrorSpan')
+.line
+  span Facebook URL:
+  input.styled.urlInput(id='facebookInput', type='text', placeholder = 'https://www.facebook.com/your account')
+  span.fieldError(id='facebookUrlErrorSpan')
+.line
+  span.saveCancelButton.floatLeft(id='cancelSaveRegistrationButton') Cancel
+  span.saveCancelButton.floatLeft(id='saveRegistrationButton') Save

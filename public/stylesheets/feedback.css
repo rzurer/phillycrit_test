@@ -1,0 +1,35 @@
+#submitFeedbackLabel {
+  width: 80% !important;
+  float: left !important;
+  text-align: left !important;
+}
+
+#cancelSubmitFeedbackButton,
+#submitFeedbackButton {
+  font-size: 18px !important;
+  width: 120px;
+  margin-left: 10px;
+}
+#submitFeedbackButton {
+  margin-right: 160px;
+}
+#feedbackInput {
+  border-radius: 5px;
+  width: 90% !important;
+  float: left;
+}
+
+.feedbackTable {
+  width: 60%;
+  float: left;
+  margin-left: 10px;
+  table-layout: fixed;
+}
+
+.feedbackTable td {
+  vertical-align: top;
+}
+
+.feedbackTable th {
+  text-align: left;
+}

@@ -1,0 +1,103 @@
+@charset 'UTF-8';
+
+.adminContent {
+  font-size: 16px;
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  margin-left: 50px;
+}
+
+.adminContent .eventInput,
+#notesInput {
+  width: 770px !important;
+}
+
+.adminUpdateMemberInfoSection #emailSpan {
+  margin-left: 62px;
+}
+
+.adminNavButton {
+  float: left;
+  padding: 6px 10px;
+  text-decoration: underline;
+  color: black;
+  cursor: pointer;
+  margin-top: 12px;
+  margin-right: 20px;
+}
+
+#notAuthorizedErrorSpan {
+  cursor: pointer;
+}
+
+.adminContent #display {
+  margin-top: 60px;
+  margin-left: 10px;
+  width: 600px;
+  text-align: left;
+}
+
+#phillyCritAdminHeader {
+  display: none;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+#notAuthorizedErrorSpan {
+  font-size: 50px;
+  color: red;
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+
+.adminButtonSection {
+  float: left;
+  border-bottom: 4px solid gainsboro;
+}
+
+.adminEventSection {
+  margin-left: 10px;
+}
+
+.adminEventSection .line span {
+  text-align: left !important;
+}
+
+#addEventButton,
+#cancelUpdateEventButton,
+#cancelAddEventButton,
+#updateEventButton,
+#showSignupSheetButton {
+  text-align: center !important;
+  float: left !important;
+  margin-right: 10px;
+}
+
+.adminContainer .headerLabel {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  float: left;
+  width: 100%;
+  border-bottom: 1px solid darkgray;
+}
+
+.adminListEventsSection {
+  margin-left: 10px;
+}
+
+.questionnairesTable {
+  table-layout: fixed;
+}
+
+.questionnairesTableRow td {
+  vertical-align: top;
+  padding-right: 10px;
+}
+
+.questionnairesTableHeaderRow {
+  line-height: 40px;
+  text-decoration: underline;
+}

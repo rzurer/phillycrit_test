@@ -1,0 +1,9 @@
+extends ./layout.pug
+block content
+  .unsubscribeContainer
+    img(id='bannerImage', alt='philly crit', src='/uploads/banner.jpg')
+    .unsubscribeMessageContainer You have successfully unsubscribed from all emails. This may take up to a day to take effect. Thanks.
+    script.
+      $(function () {
+        initializeLayout("unsubscribe", "" , !{JSON.stringify(encryptedEmail)});
+      });

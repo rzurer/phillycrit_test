@@ -1,0 +1,35 @@
+@charset 'UTF-8';
+
+.updateMemberInfoSection .saveCancelButton,
+.adminUpdateMemberInfoSection .saveCancelButton {
+  font-size: 14px;
+  float: left;
+  width: 80px;
+  margin-right: 10px;
+}
+
+#cancelSaveUpdateMemberInfoButton {
+  margin-left: 180px;
+}
+
+#cancelSaveUpdateMemberInfoButton,
+#saveUpdateMemberInfoButton {
+  width: 132px !important;
+}
+
+.updateMemberInfoSection .fieldError,
+.adminUpdateMemberInfoSection .fieldError {
+  font-size: 14px;
+  color: white;
+  width: auto !important;
+}
+
+#memberIdSpan {
+  display: none;
+}
+
+.updateMemberInfoSection span,
+.adminUpdateMemberInfoSection span {
+  width: 150px !important;
+  margin-right: 20px;
+}

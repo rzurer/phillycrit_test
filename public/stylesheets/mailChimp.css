@@ -1,0 +1,27 @@
+@charset 'UTF-8';
+
+.mailchimpSignupSection {
+  margin-left: 100px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+
+#mc_embed_signup {
+  background: #fff;
+  clear: left;
+  font: 14px Helvetica, Arial, sans-serif;
+  width: 600px;
+  padding: 5px 0;
+  border-radius: 5px;
+}
+
+#mailchimpSignupCloseButton {
+  font-size: 40px;
+  color: #a5a5a5;
+  cursor: pointer;
+  position: relative;
+  top: 5px;
+  left: 550px;
+  z-index: 10000;
+}

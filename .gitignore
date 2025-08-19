@@ -3,3 +3,4 @@ docs
 test
 audit.csv
 audit.log
+.env

@@ -1,0 +1,44 @@
+extends ./layout.pug
+block adminContent
+  #display
+  span#adminErrorSpan
+  span#notAuthorizedErrorSpan
+  h1#phillyCritAdminHeader Philly Crit Admin
+  .adminButtonSection
+    span#adminEventsListButton.adminNavButton Events List
+    span#adminMembersButton.adminNavButton Members
+    span#adminModifySettingsButton.adminNavButton Modify Settings
+    span#adminFeedbackButton.adminNavButton Review Feedback
+    span#adminQuestionnaireButton.adminNavButton Review Questionnaires
+    span#adminAuditButton.adminNavButton Review Audits
+    span#adminMemberNewsButton.adminNavButton MemberNews
+    span#adminTestButton.adminNavButton Test
+  .adminCreateOrUpdateEventSection.section.adminSection
+    include adminCreateEvent.pug
+  .adminEventsListSection.section.adminSection
+    include adminEventsList.pug
+  .adminMembersSection.section.adminSection
+    #updateMemberEmailContainer.line
+      span.adminEmailLabel Update Email:
+      input#updateEmailInput
+      span.saveCancelButton.floatLeft(id='updateMemberEmailButton') Update
+    include adminMember.pug
+  .adminUpdateMemberInfoSection.section.adminSection
+    include updateMemberInfo.pug
+  .adminMemberNewsSection.section.adminSection
+    include adminMemberNews.pug
+  .adminTestSection.section.adminSection
+    include adminTest.pug
+  .adminModifySettingsSection.section.adminSection
+    include adminUploadFiles.pug
+    include adminConfiguration.pug
+  .adminQuestionnairesSection.section.adminSection
+    include adminQuestionnaires.pug
+  .adminAuditSection.section.adminSection
+    include adminAudit.pug
+  .adminFeedbackSection.section.adminSection
+    include adminFeedback.pug
+  script.
+    $(function () {
+      initializeLayout("admin");
+    });

@@ -1,0 +1,36 @@
+span.memberNewsSpan#memberNewsExhibitionTitleLabel Exhibition Title:
+.line
+input#memberNewsExhibitionTitleInput.entryField.input600.required(type='text')
+label.requiredFieldSymbol *
+.line
+span.memberNewsSpan Exhibition Venue:
+input#memberNewsExhibitionVenueInput.entryField.input600.required(type='text')
+label.requiredFieldSymbol *
+.line
+span.memberNewsSpan Exhibition Location:
+input#memberNewsExhibitionLocationInput.entryField.input600.required(type='text')
+label.requiredFieldSymbol *
+.line
+span.memberNewsSpan Exhibition Url:
+input#memberNewsExhibitionUrlInput.entryField.input600(type='text')
+.line
+span.memberNewsSpan Exhibition Description:
+textArea#memberNewsExhibitionDescriptionTextArea.entryField(rows=6)
+.line
+.openingClosingDateContainer
+  span#openingDateLabel.memberNewsDateLabelSpan Opening:
+  span#closingDateLabel.memberNewsDateLabelSpan Closing:
+  .line
+  input#openingDateInput.memberNewsDateInput.entryField(type='date')
+  input#closingDateInput.memberNewsDateInput.entryField.required(type='date')
+  label.requiredFieldSymbol *
+.line
+span.memberNewsSpan Opening Reception:
+input#receptionDateInput.memberNewsDateInput.entryField(type='date')
+span.memberNewsTimeSpan Time:
+input#receptionTimeInput.entryField(type='text')
+.line
+span.memberNewsSpan Closing Reception:
+input#closingReceptionDateInput.memberNewsDateInput.entryField(type='date')
+span.memberNewsTimeSpan Time:
+input#closingReceptionTimeInput.entryField(type='text')

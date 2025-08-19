@@ -1,0 +1,35 @@
+.line
+  label(id='emailLabel') Email:
+  span(id='emailSpan')
+  span(id='memberIdSpan')
+.line
+  span First Name:
+  input.updateMemberControl(id='updateFirstNameInput', type = 'text')
+  label.requiredFieldSymbol *
+  span.fieldError(id='updateFirstNameErrorSpan')
+.line
+  span Last Name:
+  input.updateMemberControl(id='updateLastNameInput', type = 'text')
+  label.requiredFieldSymbol *
+  span.fieldError(id='updateLastNameErrorSpan')
+.line
+  span Phone:
+  input.updateMemberControl(id='updatePhoneInput', type = 'text')
+.line
+  span Pronouns:
+  input.updateMemberControl(id='updatePgpInput', type = 'text')
+.line
+  span Website URL:
+  input.updateMemberControl.urlInput(id='updateWebsiteInput', type = 'text')
+  span.fieldError(id='updateWebsiteUrlErrorSpan')
+.line
+  span Instagram URL:
+  input.updateMemberControl.urlInput(id='updateInstagramInput', type = 'text')
+  span.fieldError(id='updateInstagramUrlErrorSpan')
+.line
+  span Facebook URL:
+  input.updateMemberControl.urlInput(id='updateFacebookInput', type = 'text')
+  span.fieldError(id='updateFacebookUrlErrorSpan')
+.line
+  span.saveCancelButton.floatLeft(id='cancelSaveUpdateMemberInfoButton') Cancel
+  span.saveCancelButton.floatLeft(id='saveUpdateMemberInfoButton') Update

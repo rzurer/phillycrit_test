@@ -1,0 +1,18 @@
+.adminTestContainer .saveCancelButton {
+  float: left !important;
+}
+
+.adminTestSpan {
+  width: 350px !important;
+  float: left;
+}
+
+#emailToCheckInput{
+  margin-right: 15px;
+  margin-top: -1px;
+}
+#critDateInput{
+  width: 120px;
+  margin-top: -3px;
+  float: left;
+}

@@ -1,0 +1,9 @@
+extends layout
+block content
+  .warningContainer
+    img(alt='philly crit', src='/uploads/banner.jpg')
+    img(src='/images/notAuthorized.jpg')
+  script.
+    $(function () {
+      initializeLayout("notAuthorized");
+    });

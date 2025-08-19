@@ -1,0 +1,36 @@
+#mc_embed_shell
+  #mc_embed_signup
+    span#mailchimpSignupCloseButton &times;
+    form#mc-embedded-subscribe-form.validate(action='https://phillycrit.us21.list-manage.com/subscribe/post?u=8ae2dddd44fe25b5e38167892&id=6eab75cd1f&f_id=001fefe6f0', method='post', name='mc-embedded-subscribe-form', target='_blank')
+      #mc_embed_signup_scroll
+        h2 Subscribe
+        .indicates-required
+          span.asterisk *
+          |  indicates required
+        .mc-field-group
+          label(for='mce-EMAIL')
+            | Email Address 
+            span.asterisk *
+          input#mce-EMAIL.required.email(type='email', name='EMAIL', required='', value='')
+        .mc-field-group
+          label(for='mce-FNAME') First Name 
+          input#mce-FNAME.text(type='text', name='FNAME', value='')
+        .mc-field-group
+          label(for='mce-LNAME') Last Name 
+          input#mce-LNAME.text(type='text', name='LNAME', value='')
+        #mce-responses.clear.foot
+          #mce-error-response.response(style='display: none;')
+          #mce-success-response.response(style='display: none;')
+        div(aria-hidden='true', style='position: absolute; left: -5000px;')
+          | /* real people should not fill this in and expect good things - do not remove this or risk form bot signups */
+          input(type='text', name='b_8ae2dddd44fe25b5e38167892_6eab75cd1f', tabindex='-1', value='')
+        .optionalParent
+          .clear.foot
+            input#mc-embedded-subscribe.button(type='submit', name='subscribe', value='Subscribe')
+            p(style='margin: 0px auto;')
+              a(href='http://eepurl.com/iIUz1-', title='Mailchimp - email marketing made easy and fun')
+                span(style='display: inline-block; background-color: transparent; border-radius: 4px;')
+                  img.refferal_badge(src='https://digitalasset.intuit.com/render/content/dam/intuit/mc-fe/en_us/images/intuit-mc-rewards-text-dark.svg', alt='Intuit Mailchimp', style='width: 220px; height: 40px; display: flex; padding: 2px 0px; justify-content: center; align-items: center;')
+  script(type='text/javascript', src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js')
+  script(type='text/javascript').
+    (function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);

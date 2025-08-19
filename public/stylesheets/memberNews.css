@@ -1,0 +1,117 @@
+@charset 'UTF-8';
+
+
+#memberNewsCloseButton {
+  color: #a5a5a5;
+  cursor: pointer;
+  float: right;
+  margin-top: -12px;
+  font-size: 60px;
+  padding-right: 25px;
+}
+
+#memberNewsCloseButton:hover {
+  color: #4D4B4B;
+}
+
+#memberNewsContainer {
+  /*  background-color: #e05038 !important;*/
+}
+
+#memberNewsContainer hr {
+  color: white;
+  background-color: white;
+  border: none;
+  height: 3px;
+}
+
+.memberNews {
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  max-width: 900px;
+  border-top: 2px solid lightyellow;
+  border-top-width: thin;
+}
+
+.exhibitDescription {
+  margin-top: 20px;
+  max-width: 900px;
+}
+
+.allMemberNewsContainer {
+  background-color: #e05038 !important;
+  margin-left: 50px;
+}
+
+#addYourNews {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: 'Verdana';
+  text-align: center;
+  padding-top: 10px
+}
+
+.description {
+  font-size: 16px;
+  font-style: italic;
+}
+
+#whitebanner {
+  padding-bottom: 20px;
+}
+
+#memberNewsHeader {
+  font-size: 36px;
+  text-align: center;
+  font-variant: small-caps;
+  letter-spacing: 4px;
+  margin-top: -20px;
+}
+
+.memberName {
+  font-size: 18px;
+  margin-right: 40px;
+}
+
+#memberNews {
+  overflow-y: scroll;
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+#memberNews a {
+  color: #e05038;
+}
+
+.memberNews img {
+  width: 25px;
+  margin-right: 10px;
+}
+
+.memberLinks {
+  margin-bottom: 10px;
+  width: 100%;
+  float: left;
+}
+
+.exhibitDescription {
+  margin-top: 20px;
+  max-width: 900px;
+}
+
+.dashedLine {
+  border-bottom: 4px solid black;
+  width: 100%;
+  float: left;
+  opacity: 0.2;
+}
+
+#memberNewsApprovalStatusLabel {
+  float: left;
+  padding-right: 10px;
+}
+
+#memberNewsApprovalStatusSpan {
+  float: left;
+}

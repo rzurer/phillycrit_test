@@ -1,0 +1,68 @@
+@charset 'UTF-8';
+
+.eventInput {
+  width: 80% !important;
+}
+
+.eventButton {
+  margin-right: 55px;
+  line-height: 30px;
+  font-size: 18px !important;
+  width: 150px !important;
+  border: 1px solid darkgray;
+  float: left;
+}
+
+#addEventButton,
+#updateEventButton {
+  margin-left: 570px;
+}
+
+#updateEventButton {
+  display: none;
+}
+
+#adminErrorSpan {
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 16px;
+  color: red;
+  float: left !important;
+  width: auto !important;
+}
+
+.line span:first-child {
+  width: 110px;
+  padding-right: 10px;
+  float: left;
+  text-align: right;
+}
+
+.eventDateContainer {
+  float: left;
+  color: navy;
+}
+
+#createNewEventButton {
+  float: left !important;
+  width: 150px;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.eventDateContainer span {
+  float: left !important;
+  width: auto !important;
+  padding-right: 7px;
+}
+
+.createNewEventContainer {
+  margin-left: 13px;
+  margin-bottom: 15px;
+}
+
+#isAttendeeSignupOnlyInput,
+#isPresenterSignupOnlyInput,
+#isPublishedInput {
+  width: 20px !important;
+}

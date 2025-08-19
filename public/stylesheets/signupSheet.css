@@ -1,0 +1,284 @@
+@charset 'UTF-8';
+
+.eventContainer,
+.signupSelectContainer {
+  font-size: 18px;
+  width: 100% !important;
+  float: left;
+  padding: 7px;
+  margin-bottom: 20px;
+  /*  border: 2px dashed darkgray;*/
+  /*  background-color: white;*/
+}
+
+.signupContainer {
+  width: 100%;
+  /*  text-align: center;*/
+  padding-top: 10px;
+}
+.directive {
+  margin-top: -20px;
+  font-size: 18px !important;
+  padding: 10px 0 !important;
+}
+/*#signupInformationSpan {
+  width: 100%;
+}
+
+#signupInformationSpan p {
+  margin: 4px 0px
+}*/
+
+#signupSelect {
+  float: none;
+}
+
+#noEventsScheduledSpan {}
+
+.signupMessageSpan {
+  font-weight: bold;
+  padding-right: 25px;
+}
+
+#eventAttendeesContainer {
+  /*  display: none;*/
+}
+
+#eventInfoContainer {
+  /*  display: none;*/
+}
+
+#eventAttendeesContainer span {
+  /*  width: 100%;*/
+}
+
+#eventAttendeesContainer .saveCancelButton {
+  margin-top: 0;
+}
+
+#currentEventSection {
+  float: left;
+  width: 100%;
+}
+
+.eventContainer .fieldLabel {
+  width: 65px;
+  font-size: 16px;
+  padding-right: 3px;
+}
+
+.notesContent {
+  width: 500px;
+  float: left;
+  margin-top: -18px;
+}
+
+.notesContent img{
+  max-width: 500px;
+}
+
+#venueFacebookAnchor,
+#venueInstagramAnchor,
+#venueWebsiteAnchor {
+  margin-top: 1px;
+  margin-left: 15px;
+  float: left;
+  font-size: 16px;
+  word-wrap: break-word;
+  color: white;
+}
+
+.eventContainer span {
+  float: left;
+  word-wrap: break-word;
+}
+
+#newsContainer span {
+  padding: 5px 10px;
+}
+
+
+#newsContainer {
+  border: 3px yellow dashed;
+  width: 95% !important;
+}
+
+.eventContainer .line {
+  padding: 0 !important;
+  margin-bottom: 4px;
+}
+
+#eventInfoLabel,
+#eventAttendeesLabel,
+.jumpToAttendeesAnchor {
+  margin-top: -30px !important;
+  padding-left: 40px;
+  padding-right: 40px;
+  border: 1px solid deepskyblue;
+  margin-bottom: 10px;
+}
+
+.jumpToAttendeesAnchor {
+  /*  margin-left: 195px;*/
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.jumpToAttendeesAnchor:hover {
+  background-color: lightskyblue;
+  font-weight: bold;
+}
+
+.floatingLabel {
+  background-color: lightblue;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  width: auto !important;
+  text-align: center;
+}
+
+#newsLabel {
+  margin-top: -35px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#signUpButtonsContainer {
+  margin-top: 20px;
+  margin-bottom: 0;
+  width: 100%;
+  float: left;
+}
+
+#signUpButtonsContainer .saveCancelButton {
+  width: 325px !important;
+  float: left !important;
+  border: 1px solid darkgray;
+}
+
+
+#eventAttendeesTable {
+  border-spacing: 0;
+}
+
+
+.eventAttendeesRow {
+  height: 40px;
+  cursor: pointer;
+}
+
+
+.eventAttendeesRow:hover {
+  background-color: #939dad;
+}
+
+.eventAttendeesRow img {
+  padding: 2px;
+}
+
+.eventAttendeesRow img:hover {
+  background-color: yellow;
+}
+
+.eventAttendeesHeaderRow {
+  font-weight: bold;
+  height: 30px;
+  font-size: 14px;
+  color: white;
+}
+
+#eventAttendeesTable td {
+  padding-left: 0;
+  border-bottom: 1px solid darkgray;
+}
+
+.eventAttendeesHeaderRow td {
+  vertical-align: top;
+}
+
+.eventAttendeesRow img {
+  width: 20px;
+  float: left;
+  margin-right: 10px;
+}
+
+.isPresentingCheckbox {
+  width: 15px !important;
+}
+
+#displaySignupError {
+  color: white;18px;
+  padding-bottom: 10px;
+  display: none;
+}
+
+.imageHeaderCell {
+  text-align: left;
+  padding-left: 8px;
+}
+
+.displayPresentationInfo {
+  float: none !important;
+  color: white;
+  width: 100%;
+  text-align: right;
+  font-size: 13px;
+  display: block;
+}
+
+#displayPresentationSpotsLeftSpan {
+  color: white;
+  float: none !important;
+  font-size: 11px !important;
+  margin-left: 12px;
+  display: block;
+}
+
+#googleMapsLink {
+  float: left;
+  text-decoration: underline;
+  font-size: 16px;
+  color: white;
+}
+
+.pgpSpan {
+  font-size: 14px;
+  margin-left: 5px;
+  margin-top: 4px;
+  margin-right: 15px;
+}
+
+.signupMessageContainer {
+  width: 100%;
+  float: left;
+  padding-bottom: 10px;
+}
+
+.signUpButtonContainer {
+  float: left;
+  padding-bottom: 10px;
+}
+
+.signUpButtonContainer span {
+  float: left;
+}
+
+.signUpButtonContainer .fauxCheckbox {
+  margin-right: 10px;
+}
+
+.clickableSpan {
+  text-decoration: underline;
+  cursor: pointer;
+  margin: 0 7px;
+  color: navy;
+}
+
+.clickableSpan:hover {
+  font-weight: bold;
+  color: white;
+}
+
+.noShowCell{
+  padding-left: 20px !important;
+}

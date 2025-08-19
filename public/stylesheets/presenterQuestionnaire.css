@@ -1,0 +1,139 @@
+@charset 'UTF-8';
+
+.modal-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  padding: 15px;
+  box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.10);
+  border-radius: 8px;
+}
+
+.presenterQuestionnaire {
+  top: 15%;
+  left: 33%;
+  height: 480px;
+  width: 320px;
+}
+
+.critAimSpan,
+.critChallengesSpan {
+  cursor: pointer;
+}
+
+.presenterQuestionnaireSection h5 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.presenterQuestionnaire input {
+  margin-bottom: 15px;
+}
+
+.presenterQuestionnaire input[type=checkbox],
+.presenterQuestionnaire input[type=radio] {
+  transform: scale(1.5);
+  margin-right: 30px;
+  float: left;
+}
+
+.presenterQuestionnaire hr {
+  width: 100%;
+}
+
+.presenterQuestionnaire textarea {
+  font-size: 18px;
+  width: 100%;
+}
+
+.presenterQuestionnaire ul {
+  font-size: 15px;
+  width: 85%;
+  margin-bottom: 15px !important;
+}
+
+.presenterQuestionnaireSection span {
+  display: inline-block;
+  max-width: 260px;
+  font-size: 14px;
+  float: left;
+  margin-bottom: 10px;
+}
+
+#linkToImagesInput {
+  width: 95%;
+  float: left;
+}
+
+.buttonSection {
+  float: left;
+  width: 100%;
+}
+
+.buttonSection button {
+  padding: 2px 10px;
+  float: right;
+  margin-left: 15px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.presenterQuestionnaireSection {
+  float: left;
+  width: 100%;
+  display: none;
+}
+
+#termsBackButton {
+  float: left;
+}
+
+#agreeToTermsCheckbox {
+  margin-right: 15px;
+}
+
+.termsAndConditionsSection .simpleLine span {
+  margin-bottom: 2px;
+  font-weight: bold;
+}
+
+.termsAndConditionsSection ul {
+  float: left;
+  margin-top: 5px;
+}
+
+
+.errorSpan {
+  float: left;
+  text-align: left;
+  color: red;
+  font-size: 14px;
+  padding: 4px 0;
+}
+
+#closeButton {
+  font-size: 40px;
+  color: #a5a5a5;
+  cursor: pointer;
+  float: right;
+  margin-top: -20px;
+  margin-bottom: 10px;
+}
+
+#closeButton:hover {
+  color: #4D4B4B;
+}
+#additionalComments {
+  max-width: 100%;
+  margin: 10px 0;
+}
+
+.imagesSection h4 {
+  margin-top: 0;
+}
+
+#questionaireButtonsContainer {
+  float: left;
+  width: 320px;
+  padding-bottom: 10px;
+}

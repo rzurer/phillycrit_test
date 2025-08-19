@@ -1,0 +1,13 @@
+extends ./layout.pug
+block content
+  .registerFromEmail
+    img(id='bannerImage', alt='philly crit', src='/uploads/banner.jpg')
+    .loginSection.mainSection
+      include login.pug
+    .registerSection.mainSection
+      include register.pug
+    .successMessageSection
+    script.
+      $(function () {
+        initializeLayout("registerFromEmail");
+      });

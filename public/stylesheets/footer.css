@@ -1,0 +1,42 @@
+@charset 'UTF-8';
+
+.footerSection {
+  float: left;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  margin-left: 110px;
+  padding-top: 30px;
+  z-index: 10000;
+}
+
+.footerSection::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 60px;
+  height: 1px;
+  width: 90%;
+  border-top: 2px solid white;
+}
+
+#navAboutUsButton,
+#navDisplayMemberNewsButton,
+#navAuditsButton {
+  padding: 0;
+  margin: 0;
+  margin-right: 12px;
+}
+
+.footerSection img {
+  width: 30px;
+}
+
+.footerSection a {
+  padding: 0 15px;
+}
+
+#feedbackMenu {
+  margin-left: 0 !important;
+  padding: 0 !important;
+}

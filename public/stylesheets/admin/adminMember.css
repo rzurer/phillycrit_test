@@ -1,0 +1,92 @@
+@charset 'UTF-8';
+
+.membersTable {
+  float: left;
+  border-collapse: collapse;
+  border-spacing: 0;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.memberImage {
+  width: 30px;
+  float: left;
+  margin-bottom: -3px;
+}
+
+.memberTableRow {
+  height: 30px;
+}
+
+.memberTableRow img {
+  width: 30px;
+  float: left;
+}
+
+
+.memberAdminSection {
+  display: block;
+}
+
+.memberTableRow:hover {
+  background-color: #939dad;
+}
+
+.memberTableHeaderRow {
+  font-weight: bold;
+  height: 30px;
+  color: navy;
+}
+
+.memberTableHeaderRow td {
+  vertical-align: top;
+}
+
+.membersTable td {
+  word-wrap: break-word;
+  vertical-align: bottom;
+  border-bottom: 1px solid darkgray;
+  padding-bottom: 10px;
+}
+
+.membersTable .fauxCheckbox {
+  padding-left: 3px;
+  padding-right: 3px !important;
+  margin-top: 7px;
+  width: 30px !important;
+}
+
+#adminMemberInfoButtons {
+  float: left;
+  margin-left: 310px;
+}
+
+#adminMemberInfoButtons .saveCancelButton {
+  width: 100px !important;
+}
+
+.memberCountSpan {
+  width: 150px !important;
+  text-align: left !important;
+}
+
+.saveMemberCsvButton {
+  margin-left: 400px;
+  width: 210px !important;
+  float: left;
+}
+
+#updateMemberEmailContainer{
+  display: none;
+  margin-left: 55px;
+}
+
+.adminEmailLabel{
+  margin-top: 3px;
+}
+
+#updateMemberEmailButton{
+  margin-left: 15px;
+  margin-top: 5px;
+}

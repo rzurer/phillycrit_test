@@ -1,0 +1,115 @@
+@charset 'UTF-8';
+
+#mobileAboutUsNav {
+  display: none;
+}
+
+#desktopAboutUNav {
+  display: block;
+}
+
+#mobileNav {
+  display: none;
+}
+
+#desktopNav {
+  display: block;
+}
+
+#bannerImage {
+  cursor: pointer;
+  padding: 15px 0;
+  border-bottom: 2px solid white;
+  float: left;
+  width: 89%;
+  text-align: center;
+  margin-left: 90px;
+}
+
+#mainContentSection {
+  float: left;
+  width: 89%;
+}
+
+.navigationMenuSection {
+  float: left;
+  width: 100%;
+}
+
+#navigationMenu {
+  float: left;
+  width: 89%;
+  margin-left: 10px;
+  overflow: hidden;
+  padding: 9px;
+  background-color: #e04f38;
+}
+
+.sticky {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+.navButtonContainer {
+  float: left;
+  width: 100%;
+  margin-left: 80px;
+}
+
+.navButton {
+  float: left;
+  padding: 6px 10px;
+  text-decoration: underline;
+  color: white;
+  cursor: pointer;
+  margin-top: 12px;
+  margin-right: 7px;
+}
+
+#signUpLink {
+  text-decoration: underline;
+  color: white;
+}
+
+.aboutSection,
+.updateMemberInfoSection,
+.detailsSection,
+.policiesSection,
+.membersListSection,
+.feedbackSection {
+  padding-left: 100px;
+}
+
+.aboutSection p,
+.updateMemberInfoSection p,
+.detailsSection p,
+.policiesSection p,
+.policiesSection li,
+.feedbackSection p {
+  margin-right: 150px !important;
+}
+
+.navButton:hover {
+  color: navy;
+  font-weight: bold;
+}
+
+.policies {
+  float: left;
+  padding: 0 !important;
+  width: 100%;
+}
+
+.policiesListHeader {
+  margin: 5px;
+  color: white;
+}
+
+#emailUsLink {
+  margin: 0 5px;
+  color: white;
+}
+#navAuditsButton{
+  display: none;
+}

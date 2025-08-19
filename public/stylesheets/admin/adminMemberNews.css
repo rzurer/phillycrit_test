@@ -1,0 +1,151 @@
+@charset 'UTF-8';
+
+.adminMemberNewsContainer {
+  float: left;
+}
+
+.adminMemberNewsTableContainer {
+  float: left;
+}
+
+.adminMemberNewsAddOrUpdateContainer {
+  display: none;
+}
+
+.adminMemberNewsContainer .saveCancelButton {
+  float: left !important;
+  width: 120px;
+}
+
+.adminMemberNewsContainer textarea {
+  float: left;
+}
+
+#memberNewsExhibitionHtmlContainer {
+  border: 1px solid #ccc;
+  padding: 5px;
+  float: left;
+}
+
+.memberNewsSpan {
+  float: left;
+  width: 100%;
+  margin-right: 10px;
+  margin-top: 4px;
+}
+
+#closingDateInput {
+  margin-left: 50px;
+}
+
+.memberNewsTimeSpan {
+  padding-left: 2px;
+  padding-right: 3px;
+  margin-top: 8px;
+  float: left;
+}
+
+.memberNewsDateLabelSpan {
+  float: left;
+  width: 50px;
+  margin-right: 10px;
+  margin-top: 8px;
+}
+
+#memberEmailInput {
+  margin-right: 10px;
+}
+
+.memberNewsDateInput {
+  width: 120px !important;
+  margin-top: 3px !important;
+  margin-right: 3px;
+  float: left !important;
+}
+
+#closingReceptionTimeInput,
+#receptionTimeInput {
+  width: 120px;
+  margin-right: 10px;
+}
+
+.memberNewsTable {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.memberNewsTable td {
+  cursor: pointer;
+  font-family: monospace;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.memberNewsTableRow:hover {
+  background-color: #ADD8E6;
+  color: blue;
+}
+
+.memberNewsEntryContainer {
+  margin-left: 100px;
+  padding-bottom: 10px;
+  float: left;
+}
+
+#memberNewsExhibitionDescriptionTextArea {
+  width: 610px;
+  float: left;
+}
+
+.memberNewsEntryContainer .line {
+  padding: 0;
+}
+
+.openingClosingDateContainer {
+  /*  margin-left: 180px;*/
+  float: left;
+}
+
+#openingDateLabel {
+  width: inherit !important;
+}
+
+#closingDateLabel {
+  padding-left: 7px;
+  padding-right: 10px;
+}
+
+.memberNewsEntryContainer #openingDateLabel {
+  margin-right: 107px;
+}
+
+.memberNewsEntryContainer .requiredFieldSymbol {
+  color: white;
+}
+
+.memberNewsAddOrUpdateButtonContainer {
+  float: left;
+  width: 100%;
+}
+
+.memberNewsAddOrUpdateButtonContainer .saveCancelButton {
+  margin-top: 5px;
+  margin-bottom: 0 !important;
+  float: left !important;
+}
+
+#submitMemberNewsButton {
+  margin-left: 420px;
+}
+
+.memberNewsHeaderSpan {
+  float: left;
+  width: 100%;
+  padding-bottom: 3px;
+  font-size: 15px;
+}
+#memberNewsExhibitionTitleLabel{
+  width: 400px;
+  float: left;
+  margin-top: -15px;
+}

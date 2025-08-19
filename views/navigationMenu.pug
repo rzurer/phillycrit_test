@@ -1,0 +1,25 @@
+#navigationMenu.sticky
+  img(id='bannerImage', alt='philly crit', src='/uploads/banner.jpg')
+  #desktopNav
+    .navButtonContainer
+      span.navButton(id='navMissionButton') Mission
+      span.navButton(id='navDetailsButton') How It Works
+      span.navButton(id='navPoliciesButton') Policies
+      span.navButton(id='navSignupForCritButton') Sign Up
+      span.navButton.loggedInOnly(id='navUpdateMemberProfileButton') Update Profile
+      span.navButton.loggedInOnly(id='navFeedbackButton') Submit Feedback
+      span.navButton.loggedInOnly(id='navMemberNewsButton') Submit News
+      span.navButton.loggedInOnly(id='navMembersListButton') View All Crits
+      span.navButton.loggedInOnly(id='navLogoutButton') Log Out
+  #mobileNav
+    .mobileMenu
+      span.mobileMenuItem(id='navMissionMenu') Mission
+      span.mobileMenuItem(id='navDetailsMenu') How It Works
+      span.mobileMenuItem(id='navPoliciesMenu') Policies
+      span.mobileMenuItem(id='navSignupForCritMenu') Sign Up
+    .mobileMenu
+      span.mobileMenuItem.loggedInOnly(id='navUpdateMemberProfileMenu') Update Profile
+      span.mobileMenuItem.loggedInOnly(id='navFeedbackMenu') Submit Feedback
+      span.mobileMenuItem.loggedInOnly(id='navMemberNewsMenu') Submit News
+      span.mobileMenuItem.loggedInOnly(id='navMembersListMenu') View All Crits
+      span.mobileMenuItem.loggedInOnly(id='navLogoutMenu') Log Out

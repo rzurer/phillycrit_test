@@ -1,0 +1,198 @@
+@charset 'UTF-8';
+
+.registerSection .line span {
+  float: left !important;
+  text-align: left !important;
+  padding-top: 0 !important;
+}
+
+.right {
+  float: left;
+  width: 49%
+}
+
+.left {
+  float: left;
+  width: 49%
+}
+
+.registerSection {
+  float: left;
+  margin-left: 90px;
+  margin-top: 15px;
+  padding: 20px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.registerSection span {
+  width: 150px;
+}
+
+.registerSection .fieldError {
+  margin-top: 2px;
+  font-size: 14px;
+  color: white;
+  width: auto !important;
+}
+
+.loginSection {
+  float: left;
+  margin-left: 100px;
+  margin-top: 15px;
+  padding: 10px;
+}
+
+.loginSection .fieldError {
+  margin-top: 20px !important;
+  font-size: 14px;
+  color: white;
+}
+
+.registerSection input {
+  padding: 5px;
+  margin-top: 5px;
+  width: 250px;
+  float: left;
+}
+
+.loginRegisterControls {
+  float: right;
+}
+
+.registerSection .line span:first-child {
+  width: 150px;
+  float: left;
+  text-align: right;
+}
+
+.urlInput {
+  font-size: 11px;
+  padding-top: 7px !important;
+  padding-bottom: 7px !important;
+  padding-left: 7px !important;
+}
+
+.privacyMessage {
+  width: 350px !important;
+  text-align: left !important;
+  margin-top: 18px;
+  margin-left: 10px;
+}
+
+.registrationButtonSection {
+  float: left;
+  width: 100%;
+  margin: 0;
+  font-size: 16px !important;
+}
+
+.registrationButtonSection p {
+  margin: 0px;
+}
+
+#registerButton:hover {
+  background-color: #ADD8E6;
+  color: #FF4500;
+}
+
+#registerButton {
+  display: block;
+  margin-top: 20px;
+  width: 245px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #DCDCDC;
+  border: 1px solid darkgray;
+}
+
+#registerButton:hover {
+  background-color: #ADD8E6;
+  color: #FF4500;
+}
+
+#loginInput {
+  padding: 10px;
+  width: 245px;
+  border-radius: 5px;
+  float: left;
+}
+
+.enterEmailSpan {
+  padding: 10px 0;
+  margin-right: 10px;
+  display: block;
+  float: left;
+}
+
+.emptySpan{
+  padding: 20px;
+  float: left;
+}
+
+#loginErrorSpan {
+  padding: 10px;
+  display: block;
+  width: 280px;
+  margin: auto;
+  color: white;
+  font-size: 16px;
+}
+
+#emailNotFoundMessage {
+    padding: 10px 0;
+    display: block;
+    margin: 0px;
+    color: white;
+    font-size: 16px;
+}
+#loginErrorSpan {
+  padding: 10px 0;
+  display: block;
+  width: 280px;
+  margin: auto;
+  color: white;
+  font-size: 16px;
+}
+
+#emailSpan {
+  width: 270px !important;
+  text-align: left;
+  font-weight: bold;
+  padding-top: 0 !important;
+  margin-left: 45px;
+}
+
+#registrationEmailSpan {
+    float: left;
+    font-weight: bold;
+    margin-left: 22px;
+}
+#registrationEmailLabel {
+  float: left;
+  font-weight: bold;
+  margin-right: 90px;
+}
+
+#emailLabel {
+  float: left;
+  font-weight: bold;
+  margin-left: 75px;
+}
+
+#saveRegistrationButton,
+#cancelSaveRegistrationButton {
+  width: 190px !important;
+  text-align: center !important;
+  padding-top: 10px !important;
+  margin-right: 20px;
+}
+
+.successMessageSection {
+  text-align: center;
+  margin-top: 50px;
+  float: left;
+  width: 100%;
+}

@@ -1,0 +1,188 @@
+@charset 'UTF-8';
+
+#bannerImage {
+  cursor: pointer;
+  padding: 30px 0;
+  border-bottom: 2px solid white;
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+
+.footer {
+  float: left;
+  margin-top: 30px;
+  background-color: #e05038 !important;
+  width: 100%;
+  color: white !important;
+  font-weight: bold;
+  text-align: center;
+}
+
+.newFeatureImage {
+  width: 400px;
+  float: left;
+}
+
+.unsubscribeLinkContainer {
+  font-style: italic !important;
+}
+
+.unsubscribeLink {
+  font-size: 16px;
+  padding: 7px 0;
+}
+
+.critSectionHeader {
+  text-decoration: underline;
+}
+
+.footer a:visited,
+.footer a:hover,
+.footer a:active {
+  color: inherit !important;
+}
+
+.email {
+  margin: 20px 30px;
+}
+
+.content {
+  float: left;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+
+.footer a {
+  padding: 30px 50px;
+  font-family: 'Arial' !important;
+  font-size: 18px !important;
+  display: inline-block;
+  color: inherit !important;
+}
+
+.content p,
+.content span,
+.content li,
+.content div,
+.greetingContainer,
+.signature,
+.critSectionHeader {
+  font-family: 'Arial' !important;
+  font-size: 14px !important;
+  font-weight: bold !important;
+  margin: 7px 0 !important;
+  padding-bottom: 8px;
+}
+
+.content li {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.signature {
+  padding-top: 20px;
+  float: left;
+  width: 100%;
+}
+
+.greetingContainer {
+  padding-bottom: 20px;
+}
+
+.secondPipe {
+  display: inline;
+}
+
+.mainContainer {
+  width: 100%;
+  margin-bottom: 20px;
+  float: left;
+}
+
+.pastCritContainer {
+  float: left;
+  width: 100%;
+}
+
+.pastCritContainer img {
+  width: 500px;
+  float: left;
+  clear: both;
+}
+
+.presenterContainer {
+  padding-bottom: 10px;
+}
+
+.presenter {
+  float: left;
+  width: 100%;
+}
+
+.lastPresenter {
+  float: left;
+  width: 100%;
+}
+
+.lastPresenter img {
+  width: 500px;
+  padding-bottom: 0;
+}
+
+.presenter img {
+  width: 500px;
+  /*  padding-bottom: 40px;*/
+}
+
+.presenter a {
+  float: left;
+  width: 100%;
+  padding: 15px 0;
+}
+
+.short {
+  margin: 0 !important;
+  padding-bottom: 0px !important;
+  line-height: 12px;
+}
+
+.line {
+  float: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%
+}
+
+.crucialContainer {
+  font-size: 16px !important;
+  border: 1px solid red;
+  padding: 10px
+}
+
+.crucial {
+  font-size: 18px;
+  color: red;
+  font-style: italic;
+}
+
+@media only screen and (max-width:800px) {
+  .content {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .footer a {
+    padding: 5px;
+    font-size: 13px !important;
+  }
+
+  .secondPipe {
+    display: none !important;
+  }
+
+  .unsubscribeLinkContainer {
+    font-style: italic !important;
+  }
+}

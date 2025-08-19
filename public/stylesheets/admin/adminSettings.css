@@ -1,0 +1,89 @@
+@charset 'UTF-8';
+#uploadMissionStatementButton,
+#uploadNewsButton,
+#uploadDetailsButton,
+#uploadPoliciesButton {
+  float: left !important;
+  padding: 10px 15px;
+  margin-left: 15px;
+  padding: 10px 0;
+  padding: 10px 15px;
+  width: 80px;
+  text-align: center;
+}
+
+[type="file"] {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  white-space: nowrap;
+  width: 1px; 
+}
+
+[type="file"]+label {
+  background: darkgrey;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 5px;
+  outline: none;
+  position: relative;
+  transition: all 0.3s;
+  float: left;
+  padding: 10px 15px;
+  width: 260px;
+  text-align: center;
+}
+
+[type="file"]:focus+label,
+[type="file"]+label:hover {
+  background-color: black;
+  color: white;
+}
+
+[type="file"]:focus+label {
+  outline: 1px dotted #000;
+}
+
+.adminModifySettingsSection .line {
+  padding: 0;
+}
+
+.configSpan {
+  width: 250px !important;
+  text-align: left !important;
+}
+
+.configNumericInput {
+  width: 40px !important;
+}
+
+.updateConfigButton {
+  float: left;
+  margin-top: 15px;
+  margin-left: 470px;
+  margin-bottom: 50px;
+  width: 80px;
+  border-radius: 5px;
+  text-align: center !important;
+  padding: 7px;
+  font-size: 14px !important;
+  background-color: #DCDCDC;
+  cursor: pointer;
+  white-space: nowrap;
+  -webkit-user-select: none !important;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -ms-user-select: none;
+}
+
+.updateConfigButton:hover {
+  background-color: #ADD8E6;
+  color: #FF4500;
+}

@@ -1,0 +1,56 @@
+.line
+  span Date:
+  select.datePartSelect.startDatePart(id='yearSelect')
+  select.datePartSelect.startDatePart(id='monthSelect')
+  select.datePartSelect.startDatePart(id='daySelect')
+  span Start Time:
+  select.datePartSelect.startDatePart(id='startHourSelect')
+  select.datePartSelect.startDatePart(id='startMinuteSelect')
+  select.datePartSelect.startDatePart(id='startAmPmSelect')
+  span To:
+  span End Time:
+  select.datePartSelect.endDatePart(id='endHourSelect')
+  select.datePartSelect.endDatePart(id='endMinuteSelect')
+  select.datePartSelect.endDatePart(id='endAmPmSelect')
+.line
+  span Event Id:
+  input#eventIdHidden(type = 'text')
+.line
+  span Venue:
+  input.eventInput(id='venueInput', type = 'text')
+  span.requiredFieldSymbol *
+.line
+  span Address:
+  input.eventInput(id='venueAddressInput', type = 'text')
+  span.requiredFieldSymbol *
+.line
+  span Google Maps Url:
+  input.eventInput(id='googleMapsUrlInput', type = 'text')
+.line
+  span Website:
+  input.eventInput(id='venueWebsiteInput', type = 'text')
+.line
+  span Instagram:
+  input.eventInput(id='venueInstagramInput', type = 'text')
+.line
+  span Is Published:
+  input.eventInput(id='isPublishedInput', type = 'text', maxlength = 1)
+.line
+  span Is Presenter Signup Only:
+  input.eventInput(id='isPresenterSignupOnlyInput', type = 'text', maxlength = 1)
+.line
+  span Is Attendee Signup Only:
+  input.eventInput(id='isAttendeeSignupOnlyInput', type = 'text', maxlength = 1)
+.line
+  span Notes:
+  textarea(id='notesInput', rows=10, cols=100)
+.line
+  span When:
+  span(id ='tbdSpan') TBD
+  .eventDateContainer
+    span(id ='displayDateSpan')
+.line
+  span.saveCancelButton.eventButton(id='addEventButton') Create
+  span.saveCancelButton.eventButton(id='updateEventButton') Update
+  span.saveCancelButton.eventButton(id='cancelAddEventButton') Cancel
+  span.saveCancelButton.eventButton(id='cancelUpdateEventButton') Cancel

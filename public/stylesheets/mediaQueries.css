@@ -1,0 +1,503 @@
+@media only screen and (max-width: 1120px) {
+  .bioTextContainer {
+    width: 35%;
+    margin-left: 15px;
+  }
+}
+
+@media only screen and (max-width:800px) {
+  body {
+    font-size: 15px;
+    max-width: 90%;
+  }
+
+  #display {
+    margin-left: 32px;
+  }
+
+  #mobileAboutUsNav {
+    display: block;
+  }
+
+  #desktopAboutUsNav {
+    display: none;
+  }
+
+  #mobileNav {
+    display: block;
+    float: left;
+    width: 100%;
+  }
+
+  .mobileAuditTable {
+    margin-left: 0;
+  }
+
+  .mobileAuditTable td {
+    padding-right: 0;
+    font-size: 13px;
+  }
+
+  #desktopNav {
+    display: none;
+  }
+
+  #mobileAboutUsNav .mobileMenu {
+    padding-top: 30px;
+    margin-left: 25px;
+  }
+
+  .bioTextContainer {
+    width: 90%;
+  }
+
+  #bannerImage {
+    margin-left: 12px;
+    margin-bottom: 12px;
+  }
+
+  .registerFromEmail #bannerImage {
+    margin-left: 35px;
+    margin-bottom: 0
+  }
+
+  #mainContentSection {
+    width: 100%;
+  }
+
+  .pgpSpan {
+    font-size: 11px !important;
+    margin: 0 !important;
+  }
+
+  #navigationMenu {
+    width: 85%;
+    height: 210px;
+  }
+
+  .nameSpan {
+    width: 120px !important;
+  }
+
+  .membersListTableContainer,
+  .critDateSelectContainer {
+    margin-left: 15px;
+  }
+
+  .registrationButtonSection p {
+    margin: 5px 0;
+  }
+
+  .mobileMenu {
+    cursor: pointer;
+    width: 35%;
+    float: left;
+    margin-right: 25px;
+    margin-left: 20px;
+  }
+
+  #mobileAboutUsNav .mobileMenu {
+    width: 100%;
+  }
+
+  .mobileMenuItem {
+    color: white;
+    font-size: 15px;
+    margin-right: 5px;
+    cursor: pointer;
+    display: block;
+    padding: 2px 0;
+  }
+
+  #mobileAboutUsNav .mobileMenuItem {
+    display: inline;
+    padding-right: 10px;
+  }
+
+  .navButton {
+    font-size: 15px;
+  }
+
+  .footerSection img {
+    width: 25px;
+  }
+
+  .aboutSection,
+  .updateMemberInfoSection,
+  .detailsSection,
+  .policiesSection,
+  .membersListSection,
+  .feedbackSection {
+    padding-left: 7px;
+  }
+
+  .aboutSection p,
+  .updateMemberInfoSection p,
+  .detailsSection p,
+  .policiesSection p,
+  .policiesSection li,
+  .feedbackSection p {
+    margin-right: 50px !important;
+  }
+
+  .fauxCheckbox {
+    width: 27px;
+    height: 27px;
+    font-size: 18px !important;
+  }
+
+  .aboutUsContentSection {
+    font-size: 15px;
+  }
+
+  .loginSection {
+    float: left;
+    margin-left: 40px;
+    padding: 0;
+  }
+
+  .signUpForCritSection {
+    background-color: inherit;
+    margin-left: 30px !important;
+  }
+
+  #displayPresentationSpotsLeftSpan {
+    float: right !important;
+    display: inline-block;
+  }
+
+  .signupMessageSpan {
+    font-weight: bold;
+    padding-right: 5px;
+  }
+
+  .eventContainer .fieldLabel {
+    font-size: 14px;
+  }
+
+  #eventAttendeesContainer {
+    margin-bottom: 10px;
+  }
+
+  .eventContainer,
+  .signupSelectContainer {
+    font-size: 16px;
+    width: 100% !important;
+    float: left;
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  #venueFacebookAnchor,
+  #venueInstagramAnchor,
+  #venueWebsiteAnchor {
+    float: left;
+    font-size: 14px;
+    word-wrap: break-word;
+    margin-left: 0;
+  }
+
+  .clearBoth {
+    clear: both;
+    padding-right: 20px;
+  }
+
+  .aboutSection,
+  .updateMemberInfoSection,
+  .detailsSection,
+  .policiesSection,
+  .feedbackSection {
+    padding-left: 25px !important;
+    font-size: 16px;
+  }
+
+  .updateMemberInfoSection .line {
+    padding: 3px 0;
+  }
+
+  .feedbackButtonContainer {
+    margin-left: 0;
+  }
+
+  #registerButton {
+    margin-bottom: 20px;
+    width: 260px;
+    border-radius: 5px;
+    margin-left: -10px;
+  }
+
+  .footerSection::after {
+    width: 95;
+  }
+
+  .messageContainer {
+    margin-left: 15px;
+    width: 87%;
+  }
+
+  #cancelSubmitFeedbackButton,
+  #submitFeedbackButton {
+    text-align: center !important;
+    font-size: 16px !important;
+    width: 115px;
+  }
+
+  #eventAttendeesTable {
+    width: 90%;
+  }
+
+  #submitFeedbackButton {
+    margin-right: 30px;
+  }
+
+  .updateMemberInfoSection input {
+    width: 150px;
+    padding: 3px;
+  }
+
+  .updateMemberInfoSection span,
+  .adminUpdateMemberInfoSection span {
+    width: 100px !important;
+    margin-right: 0;
+  }
+
+  #googleMapsLink {
+    font-size: 14px;
+  }
+
+  .updateMemberInfoSection .requiredFieldSymbol {
+    float: left;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    width: 10px !important;
+    text-align: center !important;
+    padding-left: 4px;
+  }
+
+  .requiredFieldSymbol {
+    color: white;
+  }
+
+  #cancelSaveUpdateMemberInfoButton,
+  #saveUpdateMemberInfoButton {
+    width: 120px !important;
+    text-align: center !important;
+    margin-top: 20px;
+  }
+
+  #registrationEmailLabel {
+    margin-right: 70px;
+  }
+
+  .registerSection {
+    margin-left: 20px;
+  }
+
+  .registerSection .line {
+    padding: 4px 0;
+  }
+
+  .registerSection input {
+    margin: 0;
+  }
+
+  .footerSection {
+    margin-left: 30px;
+    padding-bottom: 15px;
+    width: 98%;
+  }
+
+  .registerSection .fieldError {
+    width: 200px !important;
+  }
+
+  .registerSection .line span {
+    width: 100%;
+  }
+
+  .registerSection.line span,
+  .updateMemberInfoSection.line span,
+  .adminUpdateMemberInfoSection.line span {
+    width: 100%;
+  }
+
+  #saveRegistrationButton,
+  #cancelSaveRegistrationButton {
+    width: 130px !important;
+    margin-top: 10px;
+  }
+
+  .eventContainer {
+    width: 95%;
+  }
+
+  .eventContainer .fieldLabel {
+    width: 100%;
+  }
+
+  .updateMemberInfoSection span,
+  .adminUpdateMemberInfoSection span {
+    width: 100%;
+    text-align: left;
+  }
+
+  #cancelSaveUpdateMemberInfoButton {
+    margin-left: 0;
+  }
+
+  #emailLabel {
+    margin-left: 0;
+  }
+
+  #emailSpan {
+    float: none;
+  }
+
+  #registrationEmailSpan {
+    float: none !important;
+  }
+
+  .jumpToAttendeesAnchor:hover {
+    background-color: lightblue;
+  }
+
+  #signUpButtonsContainer .saveCancelButton {
+    width: 140px !important;
+    font-size: 12px !important;
+    padding: 5px 4px !important;
+  }
+
+  .jumpToAttendeesAnchor {
+    margin-top: -44px;
+  }
+
+  #welcomeContainer img {
+    width: 20px;
+  }
+
+  #userMenu {
+    position: static;
+  }
+
+  .menuButton {
+    font-size: 11px !important;
+    padding: 0;
+  }
+
+  #emailNotFoundMessage,
+  #loginErrorSpan {
+    margin-top: 3px;
+  }
+
+  .bioImageContainer {
+    margin-left: 15px;
+  }
+
+  .eventContainer span {
+    font-size: 13px;
+    padding-top: 3px;
+  }
+
+  .line span:first-child {
+    text-align: left !important;
+  }
+
+  #presentingLabel {
+    font-size: 12px;
+  }
+
+  #currentEventSection {
+    margin-top: 0;
+  }
+
+  .presenterQuestionnaire input[type=checkbox],
+  .presenterQuestionnaire input[type=radio] {
+    margin-right: 15px;
+  }
+
+  .presenterQuestionnaire {
+    top: 75px;
+    left: 2px;
+    font-size: 15px;
+  }
+
+  #memberNews {
+    max-height: 550px !important;
+  }
+
+
+  #whitebanner {
+    width: 380px;
+    margin-left: -15px;
+  }
+
+  #memberNewsContainer {
+    top: 70px !important;
+    left: 15px !important;
+    width: 85% !important;
+  }
+
+  #memberNewsHeader {
+    font-size: 18px;
+    letter-spacing: 0;
+    padding-left: 0;
+  }
+
+  #memberNewsCloseButton {
+    margin-top: -28px;
+    font-size: 30px;
+    padding-right: 15px;
+}
+
+  .memberNewsEntryContainer {
+    margin-left: 30px;
+  }
+
+  .memberNewsSpan {
+    width: 100%;
+  }
+
+  .input600 {
+    width: 300px !important;
+  }
+
+  #memberNewsExhibitionDescriptionTextArea {
+    width: 310px;
+  }
+
+  #openingDateLabel {
+    margin-right: 3px !important;
+  }
+
+  #closingDateLabel {
+    margin-left: 103px;
+  }
+
+  .memberNewsTimeSpan {
+    padding-right: 3px;
+    padding-left: 0;
+  }
+
+  .memberNewsDateInput {
+    margin-right: 2px;
+  }
+
+  .memberNewsAddOrUpdateButtonContainer .saveCancelButton {
+    margin-top: 20px;
+  }
+
+  #submitMemberNewsButton {
+    margin-left: 120px;
+  }
+
+  #closingDateInput {
+    margin-left: 38px;
+  }
+
+  #memberNewsExhibitionTitleLabel {
+    width: 110px;
+    margin-top: -15px;
+    padding-bottom: 10px;
+  }
+}

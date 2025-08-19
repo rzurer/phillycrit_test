@@ -1,0 +1,342 @@
+@charset 'UTF-8';
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "Hind Madurai";
+  font-size: 18px;
+  float: left;
+  margin: 0 !important;
+  height: 100%;
+  width: 100%;
+  background-color: #e05038;
+}
+
+.content {
+  width: 100%;
+  float: left;
+  margin-left: 5px;
+}
+
+.nomargin {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+ul {
+  margin-block-start: 2px !important;
+  margin-block-end: 0 !important;
+}
+
+input {
+  font-size: 16px;
+}
+
+.eventDisplay {
+  float: left;
+  width: 100%;
+}
+
+.signUpForCritSection {
+  background-color: inherit;
+  margin-left: 105px !important;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.fieldLabel {
+  font-weight: bold;
+  color: white;
+  padding-right: 10px;
+}
+
+.headerLabel {
+  color: navy;
+  font-weight: bold;
+  float: left;
+}
+
+.styled {
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 6px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  float: left;
+}
+
+.subheaderLabel {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.blue {
+  color: blue !important;
+}
+
+.whitebold {
+  background-color: black !important;
+  color: white !important;
+  font-weight: bold !important;
+}
+
+select {
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 6px;
+  margin-right: 11px;
+  margin-bottom: 10px;
+  float: left;
+  background-color: #DCDCDC;
+}
+
+.saveCancelButtonLeft {
+  float: left !important;
+  margin-bottom: 10px !important;
+  margin-right: 10px;
+  width: 80px;
+  border-radius: 5px;
+  text-align: center !important;
+  padding: 5px;
+  font-size: 14px !important;
+  background-color: #DCDCDC;
+  cursor: pointer;
+  white-space: nowrap;
+  -webkit-user-select: none !important;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -ms-user-select: none;
+}
+
+.saveCancelButtonLeft:hover {
+  background-color: #ADD8E6;
+  color: #FF4500;
+}
+
+.saveCancelButton {
+  float: right !important;
+  margin-bottom: 10px !important;
+  margin-right: 10px;
+  width: 80px;
+  border-radius: 5px;
+  text-align: center !important;
+  padding: 5px;
+  font-size: 14px !important;
+  background-color: #DCDCDC;
+  cursor: pointer;
+  white-space: nowrap;
+  -webkit-user-select: none !important;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -ms-user-select: none;
+}
+
+.saveCancelButton:hover {
+  background-color: #ADD8E6;
+  color: #FF4500;
+}
+
+.floatLeft {
+  float: left !important;
+}
+
+.floatRight {
+  float: right !important;
+}
+
+.invalidField {
+  color: red;
+}
+
+
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}
+
+
+#display {
+  position: absolute;
+  text-align: center;
+  z-index: 10000;
+  margin-left: 120px;
+  margin-top: 35px;
+  font-size: 13px;
+  background-color: lightyellow;
+  border-radius: 5px;
+  border: 1px solid darkgray;
+  padding: 10px;
+  float: left;
+  display: none;
+  min-width: 300px;
+}
+
+.requiredFieldSymbol {
+  float: left;
+  color: black font-weight: bold;
+  font-size: 16px;
+  width: 10px !important;
+  text-align: center !important;
+  padding-left: 4px;
+  margin-right: 2px !important;
+}
+
+.fieldError {
+  display: none;
+  font-weight: normal !important;
+  color: lightyellow;
+  margin-left: 10px;
+  padding-right: 5px;
+  width: auto !important;
+  text-align: left !important;
+  font-size: 12px;
+
+}
+
+.simpleline {
+  float: left;
+  width: 100%
+}
+
+.line {
+  float: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%
+}
+
+.lineThin {
+  float: left;
+  margin-top: 5px;
+  width: 100%
+}
+
+.line span {
+  float: left;
+  text-align: right;
+  padding-top: 5px;
+  margin-right: 2px;
+}
+
+.section {
+  margin-left: 10px;
+  margin-top: 15px;
+  float: left;
+  width: 100%;
+  display: none;
+}
+
+.section input {
+  padding: 5px;
+  margin-top: 5px;
+  border-radius: 5px;
+  width: 285px;
+  float: left;
+}
+
+.fauxCheckbox {
+  border-radius: 5px;
+  border: 1px solid dimgray;
+  margin-left: 6px;
+  margin-top: 0 !important;
+  background-color: gainsboro;
+  text-align: center !important;
+  padding: 2px;
+  font-weight: bold;
+  font-size: 16px !important;
+  width: 23px;
+  height: 23px;
+  cursor: pointer;
+  float: left;
+}
+
+.marginLeft10 {
+  margin-left: 10px !important;
+}
+
+.marginLeft15 {
+  margin-left: 15px !important;
+}
+
+.marginLeft25 {
+  margin-left: 25px !important;
+}
+
+.font14 {
+  font-size: 14px
+}
+
+.colorBlack {
+  color: black !important;
+}
+
+.marginTop10 {
+  margin-top: 10px !important;
+}
+
+.marginTop20 {
+  margin-top: 20px !important;
+}
+
+.instructional {
+  width: 100% !important;
+  float: left !important;
+  text-align: center !important;
+  font-size: 14px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000000;
+}
+
+.input600 {
+  width: 600px !important;
+  font-size: 14px;
+  margin-top: 0 !important;
+}
+
+.messageContainer {
+  width: 90%;
+  margin-left: 100px;
+  padding: 4px;
+  border: 1px lightblue dashed;
+  text-align: center;
+  color: white;
+}
+
+.unsubscribeMessageContainer {
+  width: 100%;
+  float: left;
+  margin-left: 90px;
+  padding-top: 50px;
+  font-size: 24px;
+}
+
+.warningContainer {
+  width: 100%;
+  cursor: pointer;
+  float: left;
+}
+
+.warningContainer img {
+  margin-top: 10px;
+  margin-left: 90px;
+  width: 50%;
+  float: left;
+  cursor: pointer;
+}

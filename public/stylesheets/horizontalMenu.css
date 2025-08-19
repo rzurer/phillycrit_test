@@ -1,0 +1,60 @@
+@charset 'UTF-8';
+
+.menuButton {
+  float: left;
+  margin-left: 10px;
+  padding: 3px 15px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  white-space: nowrap;
+  width: 130px;
+  -webkit-user-select: none !important;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -ms-user-select: none;
+}
+
+#userMenu {
+  padding-left: 0;
+  list-style-type: none;
+  position: absolute;
+  display: none;
+}
+
+.menuButton:hover {
+  color: lightgreen;
+  font-weight: bold;
+}
+
+#welcomeContainer {
+  display: none;
+  float: right;
+}
+
+#userMenu li {
+  background-color: black;
+  color: white;
+}
+
+#welcomeContainer img {
+  float: left;
+  width: 30px;
+  margin-top: -15px;
+  padding-bottom: 10px;
+}
+
+#welcomeSpan {
+  color: yellow;
+  float: left;
+  margin-top: -12px;
+  margin-left: 10px;
+  margin-right: 45px;
+  cursor: pointer;
+}
+
+#updateMemberProfileButton,
+#showPastCritsButton,
+#cancelSaveUpdateMemberInfoButton,
+#saveUpdateMemberInfoButton {
+}

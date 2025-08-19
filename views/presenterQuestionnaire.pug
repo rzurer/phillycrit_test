@@ -1,0 +1,83 @@
+.presenterQuestionnaire.modal-content
+  span#closeButton &times;
+  #questionaireButtonsContainer
+    .aimsButtonSection.buttonSection
+      button#aimsNextButton.workflowButton(disabled) Next
+    .challengesButtonSection.buttonSection
+      button#challengesNextButton.workflowButton(disabled) Next
+      button#challengesBackButton.workflowButton(disabled) Back
+    .imagesButtonSection.buttonSection
+      button#imagesNextButton.workflowButton(disabled) Next
+      button#imagesBackButton.workflowButton(disabled) Back
+    .additionalCommentsButtonSection.buttonSection
+      button#additionalCommentsNextButton.workflowButton(disabled) Next
+      button#additionalCommentsBackButton.workflowButton(disabled) Back
+    .termsAndConditionsButtonSection.buttonSection
+      button#termsAndConditionsNextButton.workflowButton(disabled) Next
+      button#termsAndConditionsBackButton.workflowButton(disabled) Back
+    .saveOrCancelQuestionaireButtonSection.buttonSection
+      button#submitQuestionnaireButton.workflowButton(disabled) Submit
+      button#cancelSubmitQuestionnaireButton.workflowButton Cancel
+      button#saveOrCancelQuestionaireBackButton.workflowButton(disabled) Back
+  .aimsSection.presenterQuestionnaireSection
+    h5 What kind of help would you like from the group? What would you ideally get from your critique? 
+    .simpleline
+      input#wantConversationCheckbox.critAimCheckbox(type="checkbox")
+      span.critAimSpan I would like to have a conversation on the ideas and direction of my work.
+    br
+    .simpleline
+      input#wantTechnicalFeedbackCheckbox.critAimCheckbox(type="checkbox")
+      span.critAimSpan I want technical feedback.
+    br
+    .simpleline
+      input#wantColdReadCheckbox.critAimCheckbox(type="checkbox")
+      span.critAimSpan I want a cold read.
+    br
+    .simpleline
+      input#wantOtherCheckbox(type="checkbox")
+      span.critAimSpan Other
+    br
+    textarea#wantOtherTextarea(rows= 6, cols=10,  disabled)
+    span#aimErrorSpan.errorSpan
+  .challengesSection.presenterQuestionnaireSection
+    h5 Please read and confirm the following guidelines:
+    .simpleline
+      input#useCritToEvolveWorkCheckbox.critChallengesCheckbox(type="checkbox")
+      span.critChallengesSpan I intend to utilize this critique to evolve my work.
+    br
+    .simpleline
+      input#openToUnexpectedPerpectiveCheckbox.critChallengesCheckbox(type="checkbox")
+      span.critChallengesSpan I am open to my work being seen from an unexpected perspective.
+    br
+    .simpleline
+      input#openToChallengeAndNegativeCritCheckbox.critChallengesCheckbox(type="checkbox")
+      span.critChallengesSpan I am open to being challenged and can take negative criticism if it is offered.
+    br
+    span#challengesErrorSpan.errorSpan
+  .imagesSection.presenterQuestionnaireSection
+    h5 Where can we see images of your work?
+    .imageRadioButtons
+      .simpleLine
+        input#useMyWebsiteRadio.imageLinkRadio(type="radio", name='image-repository')
+        span#useMyWebsiteSpan.imageLinksSpan Use the website or Instagram feed which I entered when I registered
+      .simpleLine
+        input#useThisLinkRadio.imageLinkRadio(type="radio", name='image-repository')
+        span.imageLinksSpan Use the link below
+        input#linkToImagesInput.styled(type="text", placeholder='https://my-images-are-here', disabled)
+    span#imageLinkErrorSpan.errorSpan
+    hr
+    .simpleLine
+      span#additionalComments Please let us know if you have any special requirements or have any additional comments or concerns. 
+      textarea#additionalCommentsTextarea(rows=2, cols=10)
+  .termsAndConditionsSection.presenterQuestionnaireSection
+    .simpleLine
+      input#agreeToTermsCheckbox(type="checkbox")
+      span.submitFormSpan By submitting this form, I agree that:
+    ul
+      li I understand the mission and core values of Philly Crit.
+      li I will arrive to set up my work prior to the beginning of the crit and remove it at the end of the crit. 
+      li I will be open to constructive feedback on my work and respectful of fellow artists’ work. 
+      li I will be mindful of my time limit (25 minutes).
+      li I will notify Philly Crit via email at <b>least 48 hours</b> prior to the crit if I cannot attend as a presenter. 
+      li Philly Crit reserves the right to images of me and/or my work for promotion on our website, Instagram, and email.
+    span#agreeToTermsErrorSpan.errorSpan

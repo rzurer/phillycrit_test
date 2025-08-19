@@ -1,0 +1,40 @@
+@charset 'UTF-8';
+
+.auditTable {
+  border-collapse: collapse;
+  border-spacing: 0;
+  table-layout: fixed;
+  font-family: 'courier new';
+}
+.auditTableHeaderRow{
+  font-weight: bold;
+  line-height: 25px;
+}
+.mobileAuditTable {
+  margin-left: 100px;
+}
+
+.mobileAuditTable td {
+  vertical-align: top;
+  padding-right: 50px;
+}
+
+.auditTable td {
+  padding-right: 7px;
+}
+
+.auditButtonContainer {
+  margin-left: 50px;
+}
+
+#displayCurrentAuditsButton,
+#displayAllAuditsButton,
+#downloadAuditCsvButton {
+  float: left !important;
+  width: 150px;
+  margin-left: 20px;
+}
+
+#auditEmailSelect{
+  margin-left: 10px;
+}
