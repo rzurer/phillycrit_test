@@ -125,7 +125,9 @@ exports.initialize = function (eventListener, dataStore, userSession, attendeeCl
       return container;
     },
     shouldDisplayWaitToSignupMessage = function (memberIsAttending, attendeeCount, memberMustWaitToSignUp, waitToSignupDate, newcomerSpotsReserved) {
-      const waitToSignupDateHasPassed = dateHelper.isAfter(new Date(), waitToSignupDate),
+      const currentDateIsEqualToWaitToSignupDate = dateHelper.compareCurrentDateToChosenDate(waitToSignupDate, 'equal'),
+        currentDateIsAfterWaitToSignupDate = dateHelper.compareCurrentDateToChosenDate(waitToSignupDate, 'after'),
+        waitToSignupDateHasPassed = currentDateIsEqualToWaitToSignupDate || currentDateIsAfterWaitToSignupDate,
         newcomerSpotsHaveAlreadyBeenFilled = attendeeCount >= newcomerSpotsReserved;
       if (memberIsAttending) {
         return false;
