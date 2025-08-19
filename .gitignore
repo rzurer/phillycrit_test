@@ -4,3 +4,4 @@ test
 audit.csv
 audit.log
 .configVariables
+.env
