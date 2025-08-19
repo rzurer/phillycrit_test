@@ -1,6 +1,6 @@
 (function () {
   'use strict';
-  require('dotenv').config();
+  require('dotenv').config({ quiet: true });
   let server;
   const express = require('express'),
     expressEnforcesSsl = require('express-enforces-ssl'),
@@ -68,7 +68,7 @@
   app.use('/feedback', feedbackController);
   app.use('/admin', adminController);
   app.use('/email', emailController);
-  app.use('*', function (req, res, next) {
+  app.use('/*splat', function (req, res, next) {
     var err = new Error('Not Found');
     err.status = 404;
     next(err);
